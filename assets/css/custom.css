@@ -4,8 +4,8 @@
 }
 
 .gh-home-latest {
-  /* overflow: auto; */
-  margin-bottom: 10em;
+  overflow: auto;
+  /* margin-bottom: 10em; */
 }
 
 h1,
@@ -15,4 +15,34 @@ h4,
 h5,
 h6 {
   letter-spacing: 1px;
+}
+
+.post-template #gh-main {
+  padding-top: 0;
+}
+
+.post-template .gh-article-header {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 8rem;
+  padding-top: 8rem;
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.52);
+  border-bottom: 1px solid #060606;
+}
+
+.post-template .gh-article-image {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  margin-top: 0;
+}
+
+.post-template .gh-article-excerpt,
+.post-template .gh-article-meta {
+  color: #000;
+}
+
+.gh-article-excerpt {
+  font-weight: bold;
 }

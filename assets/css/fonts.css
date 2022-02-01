@@ -26,13 +26,14 @@
   font-style: normal;
 }
 
-p {
+/* p {
   font-family: var(--font-sans);
-}
+} */
 
 :root {
   --font-mono: "Apercu Mono Pro";
   --font-sans: "Aventa";
+  --font-serif: "Aventa";
 }
 
 .gh-article-title {
