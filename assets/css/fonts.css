@@ -1,15 +1,44 @@
 @font-face {
-    font-family: 'aventa-regular';
-    src: url('{{ asset "fonts/aventa-regular.woff2"}}') format('woff2'),
-      url('{{ asset "fonts/aventa-regular.woff"}}') format('woff2');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Aventa";
+  src: url("/assets/font/Aventa/aventa-regular.woff2") format("woff2"),
+    url("/assets/font/Aventa/aventa-regular.woff") format("woff2"),
+    url("/assets/font/Aventa/aventa-regular.ttf");
+  font-weight: normal;
+  font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'aventa';
+@font-face {
+  font-family: "ApercuMonoPro";
+  src: url("/assets/font/ApercuMono/ApercuMonoPro-Regular.woff2")
+      format("woff2"),
+    url("/assets/font/ApercuMono/ApercuMonoPro-Regular.woff") format("woff"),
+    url("/assets/font/ApercuMono/ApercuMonoPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
- :root {
-            /* --font-serif: 'aventa' */
-        }
+@font-face {
+  font-family: "ApercuPro";
+  src: url("/assets/font/Apercu/ApercuPro-Regular.woff2") format("woff2"),
+    url("/assets/font/Apercu/ApercuPro-Regular.woff") format("woff"),
+    url("/assets/font/Apercu/ApercuPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: var(--font-sans);
+}
+
+:root {
+  --font-mono: "Apercu Mono Pro";
+  --font-sans: "Aventa";
+}
+
+.gh-article-title {
+  font-family: var(--font-sans);
+}
+
+.gh-article-meta {
+  font-family: var(--font-mono);
+}

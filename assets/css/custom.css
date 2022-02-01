@@ -1,0 +1,18 @@
+.gh-home-latest-footer,
+.gh-home-latest-label {
+  display: none;
+}
+
+.gh-home-latest {
+  /* overflow: auto; */
+  margin-bottom: 10em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 1px;
+}
