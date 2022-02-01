@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'aventa-regular';
+    src: url('{{ asset "fonts/aventa-regular.woff2"}}') format('woff2'),
+      url('{{ asset "fonts/aventa-regular.woff"}}') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'aventa';
+}
+
+ :root {
+            /* --font-serif: 'aventa' */
+        }
